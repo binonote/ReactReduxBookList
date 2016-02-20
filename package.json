@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "https://github.com/binonote/ReactReduxExpress",
   "scripts": {
-    "start": "node webpack-dev-server --inline"
+    "start": "webpack-dev-server --inline"
   },
   "author": "",
   "license": "ISC",

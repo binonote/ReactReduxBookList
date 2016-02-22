@@ -6,5 +6,5 @@ export default function() {
   {title: 'The Three Kingdoms', pages: 1000},
   {title: 'Peace in Every Step', pages: 200},
   {title: 'Javascript the weird part', pages: 101}
-];
+  ];
 }

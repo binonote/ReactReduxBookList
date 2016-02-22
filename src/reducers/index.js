@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux';
-import BooksReducer from './reducer_books';
-import ActiveBook from './reducer_active_book';
+import BooksReducer from './reducer-books';
+import ActiveBook from './reducer-active-book';
+import CurrentZip from './reducer-zipcode';
 
 const rootReducer = combineReducers({
   books: BooksReducer,
-  activeBook: ActiveBook
+  activeBook: ActiveBook,
+  zip: CurrentZip
 });
 
 export default rootReducer;
